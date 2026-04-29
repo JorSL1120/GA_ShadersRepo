@@ -11,7 +11,7 @@ public class MouseColor : MonoBehaviour
 
     private void Start()
     {
-        _cam = GetComponent<Camera>();
+        _cam = Camera.main;
         material = GetComponent<Renderer>().material;
     }
 
